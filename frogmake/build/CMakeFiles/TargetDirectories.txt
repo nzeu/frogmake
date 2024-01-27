@@ -1,3 +1,0 @@
-/home/nzeu/programing/frogmake/build/CMakeFiles/frogmake.dir
-/home/nzeu/programing/frogmake/build/CMakeFiles/edit_cache.dir
-/home/nzeu/programing/frogmake/build/CMakeFiles/rebuild_cache.dir
