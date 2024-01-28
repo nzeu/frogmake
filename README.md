@@ -1,9 +1,14 @@
 # frogmake
-frogmake will compile with gcc from instructions given in a frogm.toml file, similar to cmake but my goal is to make it more like rust's cargo. [for now only works on unix based systems]
+frogmake will compile with gcc from instructions given in a frogm.toml file [for now only works on unix based systems]
 
-# Build from source or download the latest release
-You can build it from source with make, i have yet to implement a make install target
-Or you can download the binary for the latest release
+# Installation
+```
+git clone https://github.com/nzeu/frogmake
+```
+```
+cd frogmake/build && make
+```
+This will create a binary in the build directory
 
 # How to use
 Frogmake uses the toml file format and looks for a frogm.toml file https://toml.io/en/
