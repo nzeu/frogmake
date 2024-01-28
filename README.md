@@ -6,6 +6,7 @@ You can build it from source with make, i have yet to implement a make install t
 Or you can download the binary for the latest release
 
 # How to use
+Frogmake uses the toml file format and looks for a frogm.toml file https://toml.io/en/
 Right now fromgake lacks features so it only uses 2 tables: build and files
 Under build, you can define name, which will determine how the executable is name (the -o flag)
 I am planning to add optimization levels, how many warnings are shown during compile time, making working different directories very straight forward, managing dependencies, among others
