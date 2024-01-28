@@ -1,8 +1,9 @@
 # frogmake
 frogmake will compile with gcc from instructions given in a frogm.toml file, similar to cmake but my goal is to make it more like rust's cargo. [for now only works on unix based systems]
 
-# Build from source
-use make in the build directory to compile the project. Make install should come soon
+# Build from source or download the latest release
+You can build it from source with make, i have yet to implement a make install target
+Or you can download the binary for the latest release
 
 # How to use
 Right now fromgake lacks features so it only uses 2 tables: build and files
