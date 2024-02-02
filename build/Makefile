@@ -129,29 +129,29 @@ frogmake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/frogmake.dir/build.make CMakeFiles/frogmake.dir/build
 .PHONY : frogmake/fast
 
-dep/toml.o: dep/toml.c.o
-.PHONY : dep/toml.o
+lib/toml.o: lib/toml.c.o
+.PHONY : lib/toml.o
 
 # target to build an object file
-dep/toml.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/frogmake.dir/build.make CMakeFiles/frogmake.dir/dep/toml.c.o
-.PHONY : dep/toml.c.o
+lib/toml.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frogmake.dir/build.make CMakeFiles/frogmake.dir/lib/toml.c.o
+.PHONY : lib/toml.c.o
 
-dep/toml.i: dep/toml.c.i
-.PHONY : dep/toml.i
+lib/toml.i: lib/toml.c.i
+.PHONY : lib/toml.i
 
 # target to preprocess a source file
-dep/toml.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/frogmake.dir/build.make CMakeFiles/frogmake.dir/dep/toml.c.i
-.PHONY : dep/toml.c.i
+lib/toml.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frogmake.dir/build.make CMakeFiles/frogmake.dir/lib/toml.c.i
+.PHONY : lib/toml.c.i
 
-dep/toml.s: dep/toml.c.s
-.PHONY : dep/toml.s
+lib/toml.s: lib/toml.c.s
+.PHONY : lib/toml.s
 
 # target to generate assembly for a file
-dep/toml.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/frogmake.dir/build.make CMakeFiles/frogmake.dir/dep/toml.c.s
-.PHONY : dep/toml.c.s
+lib/toml.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/frogmake.dir/build.make CMakeFiles/frogmake.dir/lib/toml.c.s
+.PHONY : lib/toml.c.s
 
 src/frogmake.o: src/frogmake.c.o
 .PHONY : src/frogmake.o
@@ -210,9 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... frogmake"
-	@echo "... dep/toml.o"
-	@echo "... dep/toml.i"
-	@echo "... dep/toml.s"
+	@echo "... lib/toml.o"
+	@echo "... lib/toml.i"
+	@echo "... lib/toml.s"
 	@echo "... src/frogmake.o"
 	@echo "... src/frogmake.i"
 	@echo "... src/frogmake.s"
