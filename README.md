@@ -8,6 +8,9 @@ git clone https://github.com/nzeu/frogmake
 ```
 cd frogmake/build && make
 ```
+```
+sudo make install
+```
 This will create a binary in the build directory
 
 ## How to use
